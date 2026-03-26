@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Салон красоты "Элегия" | Красота и стиль</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">✦</span>
+                <span class="logo-text">Элегия</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#booking">Запись</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero секция -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">
+                <span class="title-subtitle">Добро пожаловать в</span>
+                <span class="title-main">Элегия</span>
+                <span class="title-tagline">Салон красоты</span>
+            </h1>
+            <p class="hero-description">Где рождается ваша естественная красота</p>
+            <a href="#booking" class="btn btn-primary">Записаться онлайн</a>
+        </div>
+        <div class="hero-decoration">
+            <div class="floating-element element-1">✦</div>
+            <div class="floating-element element-2">❀</div>
+            <div class="floating-element element-3">✧</div>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="features">
+        <div class="container features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🌿</div>
+                <h3>Натуральная косметика</h3>
+                <p>Используем только органические и экологичные средства</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">✨</div>
+                <h3>Опытные мастера</h3>
+                <p>Специалисты с многолетним стажем и постоянным обучением</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💎</div>
+                <h3>Премиум сервис</h3>
+                <p>Индивидуальный подход и комфорт на каждом этапе</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🕐</div>
+                <h3>Удобный график</h3>
+                <p>Работаем ежедневно с 9:00 до 21:00 без выходных</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги и прайс -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Наши услуги</span>
+                <h2 class="section-title">Прайс-лист</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Парикмахерский зал -->
+                <div class="service-category">
+                    <div class="category-header">
+                        <span class="category-icon">💇‍♀️</span>
+                        <h3>Парикмахерский зал</h3>
+                    </div>
+                    <ul class="price-list">
+                        <li class="price-item">
+                            <span class="service-name">Женская стрижка</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">от 1 500 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Мужская стрижка</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">от 1 000 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Окрашивание волос</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">от 3 500 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Мелирование</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">от 4 000 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Укладка волос</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">от 1 200 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Ламинирование волос</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">от 2 500 ₽</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Ногтевой сервис -->
+                <div class="service-category">
+                    <div class="category-header">
+                        <span class="category-icon">💅</span>
+                        <h3>Ногтевой сервис</h3>
+                    </div>
+                    <ul class="price-list">
+                        <li class="price-item">
+                            <span class="service-name">Маникюр классический</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">800 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Маникюр с покрытием</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">1 500 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Наращивание ногтей</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">от 2 500 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Педикюр полный</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">1 800 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Дизайн ногтей</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">от 300 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">SPA-уход для рук</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">1 000 ₽</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Косметология -->
+                <div class="service-category">
+                    <div class="category-header">
+                        <span class="category-icon">🌸</span>
+                        <h3>Косметология</h3>
+                    </div>
+                    <ul class="price-list">
+                        <li class="price-item">
+                            <span class="service-name">Чистка лица</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">2 500 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Пилинг лица</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">от 2 000 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Массаж лица</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">1 800 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Мезотерапия</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">от 3 500 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Биоревитализация</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">от 5 000 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Оформление бровей</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">600 ₽</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Спа и массаж -->
+                <div class="service-category">
+                    <div class="category-header">
+                        <span class="category-icon">🧖‍♀️</span>
+                        <h3>СПА и массаж</h3>
+                    </div>
+                    <ul class="price-list">
+                        <li class="price-item">
+                            <span class="service-name">Массаж классический</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">2 500 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Массаж расслабляющий</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">2 800 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Ароматерапия</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">2 000 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">Обёртывание</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">от 2 500 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">СПА-программа "Релакс"</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">5 500 ₽</span>
+                        </li>
+                        <li class="price-item">
+                            <span class="service-name">СПА-программа "Премиум"</span>
+                            <span class="service-dots"></span>
+                            <span class="service-price">8 000 ₽</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Наши работы</span>
+                <h2 class="section-title">Галерея</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #e0f7fa 0%, #b2dfdb 100%);">
+                        <span class="gallery-placeholder">💇‍♀️</span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <span>Стильные стрижки</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);">
+                        <span class="gallery-placeholder">💅</span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <span>Идеальный маникюр</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);">
+                        <span class="gallery-placeholder">🎨</span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <span>Креативное окрашивание</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);">
+                        <span class="gallery-placeholder">🌺</span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <span>Вечерние причёски</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%);">
+                        <span class="gallery-placeholder">✨</span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <span>Дизайн ногтей</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);">
+                        <span class="gallery-placeholder">👑</span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <span>Свадебные образы</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Онлайн-запись -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Запишитесь сейчас</span>
+                <h2 class="section-title">Онлайн-запись</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="booking-wrapper">
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" name="name" placeholder="Как к вам обращаться" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="service">Выберите услугу</label>
+                            <select id="service" name="service" required>
+                                <option value="">-- Выберите услугу --</option>
+                                <optgroup label="Парикмахерский зал">
+                                    <option value="haircut_women">Женская стрижка</option>
+                                    <option value="haircut_men">Мужская стрижка</option>
+                                    <option value="coloring">Окрашивание волос</option>
+                                    <option value="highlighting">Мелирование</option>
+                                    <option value="styling">Укладка волос</option>
+                                </optgroup>
+                                <optgroup label="Ногтевой сервис">
+                                    <option value="manicure">Маникюр</option>
+                                    <option value="manicure_gel">Маникюр с покрытием</option>
+                                    <option value="pedicure">Педикюр</option>
+                                    <option value="nails_design">Дизайн ногтей</option>
+                                </optgroup>
+                                <optgroup label="Косметология">
+                                    <option value="face_cleaning">Чистка лица</option>
+                                    <option value="face_peeling">Пилинг лица</option>
+                                    <option value="face_massage">Массаж лица</option>
+                                    <option value="eyebrows">Оформление бровей</option>
+                                </optgroup>
+                                <optgroup label="СПА и массаж">
+                                    <option value="massage_classic">Классический массаж</option>
+                                    <option value="massage_relax">Расслабляющий массаж</option>
+                                    <option value="spa_relax">СПА-программа "Релакс"</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="master">Предпочитаемый мастер</label>
+                            <select id="master" name="master">
+                                <option value="">Любой специалист</option>
+                                <option value="anna">Анна — топ-стилист</option>
+                                <option value="elena">Елена — косметолог</option>
+                                <option value="maria">Мария — мастер маникюра</option>
+                                <option value="olga">Ольга — массажист</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Дата визита</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Время</label>
+                            <select id="time" name="time" required>
+                                <option value="">-- Выберите время --</option>
+                                <option value="09:00">09:00</option>
+                                <option value="10:00">10:00</option>
+                                <option value="11:00">11:00</option>
+                                <option value="12:00">12:00</option>
+                                <option value="13:00">13:00</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:00">15:00</option>
+                                <option value="16:00">16:00</option>
+                                <option value="17:00">17:00</option>
+                                <option value="18:00">18:00</option>
+                                <option value="19:00">19:00</option>
+                                <option value="20:00">20:00</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="comments">Комментарий (необязательно)</label>
+                        <textarea id="comments" name="comments" rows="3" placeholder="Пожелания или особые отметки"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-full">Записаться</button>
+                    
+                    <p class="form-note">
+                        <span>🔒</span> Ваши данные защищены. Мы свяжемся с вами для подтверждения записи.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Свяжитесь с нами</span>
+                <h2 class="section-title">Контакты</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="contacts-wrapper">
+                <div class="contacts-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Адрес</h4>
+                            <p>г. Москва, ул. Красоты, д. 15</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4>Телефон</h4>
+                            <p><a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@elegia-salon.ru">info@elegia-salon.ru</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">🕐</div>
+                        <div class="contact-details">
+                            <h4>Режим работы</h4>
+                            <p>Ежедневно: 9:00 — 21:00</p>
+                            <p>Без выходных и перерывов</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="ВКонтакте">VK</a>
+                        <a href="#" class="social-link" aria-label="Telegram">TG</a>
+                        <a href="#" class="social-link" aria-label="WhatsApp">WA</a>
+                        <a href="#" class="social-link" aria-label="Instagram">IG</a>
+                    </div>
+                </div>
+                
+                <div class="contacts-map">
+                    <div class="map-placeholder">
+                        <span class="map-icon">🗺️</span>
+                        <p>Интерактивная карта</p>
+                        <small>г. Москва, ул. Красоты, д. 15</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">✦</span>
+                    <span class="logo-text">Элегия</span>
+                </div>
+                <p class="footer-tagline">Ваша красота — наше вдохновение</p>
+                <div class="footer-links">
+                    <a href="#home">Главная</a>
+                    <a href="#services">Услуги</a>
+                    <a href="#gallery">Галерея</a>
+                    <a href="#booking">Запись</a>
+                    <a href="#contacts">Контакты</a>
+                </div>
+                <p class="footer-copyright">© 2026 Салон красоты "Элегия". Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальное окно подтверждения -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Закрыть">&times;</button>
+            <div class="modal-icon">✓</div>
+            <h3>Заявка отправлена!</h3>
+            <p>Спасибо за запись! Наш менеджер свяжется с вами в ближайшее время для подтверждения.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
